@@ -1,0 +1,30 @@
+button{
+    margin:1rem;
+    background-color: #252728;
+    transition: 0.3s;
+    border:none;
+    border-radius: 0.5rem;
+    min-width: 8rem;
+    padding-block: 0.5rem;
+    font-size: 1.25rem;
+    min-height: 4rem;
+}
+button:hover{
+    outline: 1px solid #3524db;
+    filter:drop-shadow(0 0 0.5rem #3524db);
+}
+button:active{
+    outline: 1px solid #3524db;
+    filter:drop-shadow(0 0 2rem #3524db);
+}
+.reset{
+    transition: 0.3s;
+}
+.reset:hover{
+    outline: 1px solid #db243c;
+    filter:drop-shadow(0 0 0.5rem #db243c);
+}
+.reset:active{
+    outline: 1px solid #db243c;
+    filter:drop-shadow(0 0 2rem #db243c);
+}
